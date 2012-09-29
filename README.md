@@ -1,12 +1,13 @@
 # Personal Email
-Contributors: [bungeshea](http://profiles.wordpress.org/bungeshea)   
-Donate link: http://bungeshea.com/donate/   
-Tags: email, personal, mail   
-Requires at least: 2.3   
-Tested up to: 3.4.2   
-Stable tag: 1.0   
-License: GPLv3 or later   
-License URI: http://www.gnu.org/licenses/gpl-3.0.html   
+
+* Contributors: [bungeshea](http://profiles.wordpress.org/bungeshea)
+* Donate link: http://bungeshea.com/donate/
+* Tags: email, personal, mail
+* Requires at least: 2.3
+* Tested up to: 3.4.2
+* Stable tag: 1.0
+* License: GPLv3 or later
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Changes the default address that WordPress uses to send emails to the one set in Settings > General.
 
