@@ -3,8 +3,8 @@ Contributors: bungeshea
 Donate link: http://bungeshea.com/donate/
 Tags: email, personal, mail
 Requires at least: 2.3
-Tested up to: 3.4.2
-Stable tag: 1.0
+Tested up to: 3.5.1
+Stable tag: 1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -22,7 +22,7 @@ This light-weight plugin changes the default wordpress@sitename.com email addres
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Done!
 
-== Frequently Asked Questions == 
+== Frequently Asked Questions ==
 = This plugin has no settings page! How do I tell it what email address to change to? =
 Simply navigate to the General Options page of your WordPress Dashboard *(Settings > General)*.
 
@@ -30,6 +30,9 @@ Simply navigate to the General Options page of your WordPress Dashboard *(Settin
 * The text in the **Site Title** field will be the name that appears next top the email address.
 
 == Changelog ==
+
+= 1.1 =
+* Only change the address if the sender address actually is `wordpress@sitename`. Fixes compatibility with contact forms.
 
 = 1.0 =
 * Initial release

@@ -3,8 +3,8 @@ Contributors: [bungeshea](http://profiles.wordpress.org/bungeshea)
 Donate link: http://bungeshea.com/donate/
 Tags: email, personal, mail
 Requires at least: 2.3
-Tested up to: 3.4.2
-Stable tag: 1.0
+Tested up to: 3.5.1
+Stable tag: 1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,9 @@ Simply navigate to the General Options page of your WordPress Dashboard *(Settin
 * The text in the **Site Title** field will be the name that appears next top the email address.
 
 ## Changelog
+
+### 1.1
+* Only change the address if the sender address actually is `wordpress@sitename`. Fixes compatibility with contact forms.
 
 ### 1.0
 * Initial release
