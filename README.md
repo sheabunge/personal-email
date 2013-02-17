@@ -1,12 +1,9 @@
 # Personal Email
-Contributors: [bungeshea](http://profiles.wordpress.org/bungeshea)
-Donate link: http://bungeshea.com/donate/
-Tags: email, personal, mail
-Requires at least: 2.3
-Tested up to: 3.5.1
-Stable tag: 1.1
-License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+* __Requires at least:__ WordPress 2.3
+* __Tested up to:__ WordPress 3.5.1
+* __Stable version:__ [1.1](http://downloads.wordpress.org/plugin/personal-email.latest-stable.zip)
+* __License:__ [MIT](http://opensource.org/licenses/mit-license.php)
 
 Changes the default address that WordPress uses to send emails to the one set in Settings > General.
 
@@ -14,13 +11,13 @@ Changes the default address that WordPress uses to send emails to the one set in
 
 This light-weight plugin changes the default wordpress@sitename.com email address that WordPress uses to send emails to the one set in Settings > General. Also changes the sending name to the site title. There is no configuration, simply install and activate.
 
-[Visit the plugin homepage](http://bungeshea.com/plugins/personal-email/)
+Visit the [plugin homepage](http://bungeshea.com/plugins/personal-email/), or download it from [WordPress.org](http://wordpress.org/extend/plugins/personal-email).
 
 ## Installation
 
 1. Upload `personal-email.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Done!
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Done!
 
 ## Frequently Asked Questions
 
@@ -33,7 +30,7 @@ Simply navigate to the General Options page of your WordPress Dashboard *(Settin
 ## Changelog
 
 ### 1.1
-* Only change the address if the sender address actually is `wordpress@sitename`. Fixes compatibility with contact forms.
+* Only change the address if the sender address actually is `wordpress@sitename`. Fixes compatibility with contact forms where the email is sent from the user.
 
 ### 1.0
 * Initial release

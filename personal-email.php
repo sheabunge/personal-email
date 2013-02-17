@@ -7,24 +7,23 @@
  * Author: Shea Bunge
  * Author URI: http://bungeshea.com
  * Version: 1.1
- * Licence: GPLv3 or later
- * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Licence: MIT
+ * License URI: http://opensource.org/licenses/mit-license.php
  */
 
 function personal_email_from( $from_email ) {
 
-		/* Calculate the default address */
-		$sitename = strtolower( $_SERVER['SERVER_NAME'] );
+	/* Calculate the default address */
+	$sitename = strtolower( $_SERVER['SERVER_NAME'] );
 
-		if ( 'www.' === substr( $sitename, 0, 4 ) ) {
-			$sitename = substr( $sitename, 4 );
-		}
+	if ( 'www.' === substr( $sitename, 0, 4 ) ) {
+		$sitename = substr( $sitename, 4 );
+	}
 
-		/* Check that we don't effect emails not sent with the default address */
-
-		if ( 'wordpress@' . $sitename === $from_email ) {
-			$from_email = get_bloginfo( 'admin_email' );
-		}
+	/* Check that we don't effect emails not sent with the default address */
+	if ( 'wordpress@' . $sitename === $from_email ) {
+		$from_email = get_bloginfo( 'admin_email' );
+	}
 
 	return $from_email;
 }
