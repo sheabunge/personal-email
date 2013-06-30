@@ -1,7 +1,7 @@
 # Personal Email
 
-* __Requires at least:__ WordPress 2.3
-* __Tested up to:__ WordPress 3.5.1
+* __Requires at least:__ WordPress 2.3 or later
+* __Tested up to:__ WordPress 3.5.2
 * __Stable version:__ [1.1](http://downloads.wordpress.org/plugin/personal-email.latest-stable.zip)
 * __License:__ [MIT](http://opensource.org/licenses/mit-license.php)
 

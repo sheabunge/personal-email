@@ -3,7 +3,7 @@ Contributors: bungeshea
 Donate link: http://bungeshea.com/donate/
 Tags: email, personal, mail
 Requires at least: 2.3
-Tested up to: 3.5.1
+Tested up to: 3.5.2
 Stable tag: 1.1
 License: MIT
 License URI: http://opensource.org/licenses/mit-license.php
