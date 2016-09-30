@@ -2,8 +2,8 @@
 
 * __Requires at least:__ WordPress 2.3 or later
 * __Tested up to:__ WordPress 4.4
-* __Stable version:__ [1.1](http://downloads.wordpress.org/plugin/personal-email.latest-stable.zip)
-* __License:__ [MIT](http://opensource.org/licenses/mit-license.php)
+* __Stable version:__ [1.1](https://downloads.wordpress.org/plugin/personal-email.latest-stable.zip)
+* __License:__ [MIT](https://opensource.org/licenses/MIT)
 
 Changes the default address that WordPress uses to send emails to the one set in Settings > General.
 
@@ -11,7 +11,7 @@ Changes the default address that WordPress uses to send emails to the one set in
 
 This light-weight plugin changes the default wordpress@sitename.com email address that WordPress uses to send emails to the one set in Settings > General. Also changes the sending name to the site title. There is no configuration, simply install and activate.
 
-Visit the [plugin homepage](http://bungeshea.com/plugins/personal-email/), or download it from [WordPress.org](http://wordpress.org/extend/plugins/personal-email).
+Visit the [plugin homepage](https://bungeshea.com/plugins/personal-email/), or download it from [WordPress.org](https://wordpress.org/plugins/personal-email).
 
 ## Installation
 
