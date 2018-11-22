@@ -1,9 +1,10 @@
 === Personal Email ===
 Contributors: bungeshea
-Donate link: https://bungeshea.com/donate/
+Donate link: https://sheabunge.com/donate
 Tags: email, personal, mail
 Requires at least: 2.3
-Tested up to: 4.9.2
+Tested up to: 5.0
+Requires PHP: 5.2
 Stable tag: 1.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
@@ -14,7 +15,7 @@ Changes the default address that WordPress uses to send emails to the one set in
 
 This light-weight plugin changes the default wordpress@sitename.com email address that WordPress uses to send emails to the one set in Settings > General. Also changes the sending name to the site title. There is no configuration, simply install and activate.
 
-Visit the [plugin homepage](https://bungeshea.com/plugins/personal-email/), or contribute to its development on [GitHub](https://github.com/sheabunge/personal-email).
+Visit the [plugin homepage](https://sheabunge.com/plugins/personal-email/), or contribute to its development on [GitHub](https://github.com/sheabunge/personal-email).
 
 == Installation ==
 

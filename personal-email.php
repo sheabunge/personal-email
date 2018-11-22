@@ -2,10 +2,10 @@
 
 /**
  * Plugin Name: Personal Email
- * Plugin URI: https://bungeshea.com/plugins/personal-email/
+ * Plugin URI: https://sheabunge.com/plugins/personal-email/
  * Description: Changes the default address that WordPress uses to send emails to the one set in Settings > General.
  * Author: Shea Bunge
- * Author URI: https://bungeshea.com
+ * Author URI: https://sheabunge.com
  * Version: 1.1
  * Licence: MIT
  * License URI: https://opensource.org/licenses/MIT
@@ -16,7 +16,7 @@
  *
  * @package Personal_Email
  * @version 1.1
- * @author  Shea Bunge <https://bungeshea.com>
+ * @author  Shea Bunge <https://sheabunge.com>
  * @license https://opensource.org/licenses/MIT MIT
  */
 
