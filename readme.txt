@@ -3,7 +3,7 @@ Contributors: bungeshea
 Donate link: https://sheabunge.com/donate
 Tags: email, personal, mail
 Requires at least: 2.3
-Tested up to: 5.0
+Tested up to: 5.6
 Requires PHP: 5.2
 Stable tag: 1.1
 License: MIT
@@ -33,6 +33,9 @@ Simply navigate to the General Options page of your WordPress Dashboard *(Settin
 
 == Changelog ==
 
+= 1.1.1 =
+* Updated the way that WordPress calculates the site name
+
 = 1.1 =
 * Only change the address if the sender address actually is `wordpress@sitename`.
 
@@ -40,6 +43,9 @@ Simply navigate to the General Options page of your WordPress Dashboard *(Settin
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.1.1 =
+Update the way that WordPress calculates the site name.
 
 = 1.1 =
 Only change the default address, not custom emails. Fixes compatibility with contact forms where the email is sent from the user.

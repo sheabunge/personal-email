@@ -1,8 +1,8 @@
 # Personal Email
 
 * __Requires at least:__ WordPress 2.3 or later
-* __Tested up to:__ WordPress 5.0
-* __Stable version:__ [1.1](https://downloads.wordpress.org/plugin/personal-email.latest-stable.zip)
+* __Tested up to:__ WordPress 5.6
+* __Stable version:__ [1.1.1](https://downloads.wordpress.org/plugin/personal-email.zip)
 * __License:__ [MIT](https://opensource.org/licenses/MIT)
 
 Changes the default address that WordPress uses to send emails to the one set in Settings > General.
@@ -28,6 +28,9 @@ Simply navigate to the General Options page of your WordPress Dashboard *(Settin
 * The text in the **Site Title** field will be the name that appears next top the email address.
 
 ## Changelog
+
+### 1.1.1
+* Updated the way that WordPress calculates the site name
 
 ### 1.1
 * Only change the address if the sender address actually is `wordpress@sitename`. Fixes compatibility with contact forms where the email is sent from the user.
